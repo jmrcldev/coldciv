@@ -1,0 +1,21 @@
+[
+  {
+    "columnNumber": 0,
+    "era": "Ancient era",
+    "techCost": 20,
+    "buildingCost": 40,
+    "wonderCost": 185,
+    "techs": [
+      {
+        "name": "Atomic Era Basics",
+        "row": 5,
+        "quote": "'Now I am become Death, the destroyer of worlds.' - J. Robert Oppenheimer",
+        "uniques": [
+          "Starting tech",
+          "Notified of new Barbarian encampments",
+          "Enables establishment of embassies"
+        ]
+      }
+    ]
+  }
+]
