@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Ocean",
+    "type": "Water",
+    "food": 1,
+    "movementCost": 1,
+    "RGB": [255,255,255]
+  },
+  
+  {
+    "name": "Coast",
+    "type": "Water",
+    "food": 1,
+    "movementCost": 1,
+    "RGB": [255,255,255]
+  },
+  
+  {
+    "name": "Lakes",
+    "type": "Water",
+    "food": 1,
+    "movementCost": 1,
+    "RGB": [255,255,255],
+    "uniques": [
+      "Fresh water"
+    ]
+  },
+
+  {
+    "name": "Desert",
+    "type": "Land",
+    "movementCost": 1,
+    "RGB": [255,255,255]
+  }
+]
