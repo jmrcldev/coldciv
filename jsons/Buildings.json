@@ -3,6 +3,7 @@
 		"name": "City Plaza",
 		"piety": 1,
 		"culture": 1,
+		"cost": 50,
 		"maintenance": 1
 	}
 ]
