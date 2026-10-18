@@ -3,11 +3,38 @@
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
+		"cost": 50,
 		"uniques": [
 			"Can build [All] improvements on tiles",
 			"Can build [Land] improvements on tiles",
 			"Automation is a primary action"
-		],
-		"cost": 50
+		]
 	},
+
+	{
+        "name": "Settler",
+        "unitType": "Civilian",
+        "movement": 2,
+        "cost": 100,
+        "uniques": [
+            "Founds a new city <by consuming this unit>",
+            "Excess Food converted to Production when under construction",
+            "Requires at least [2] population"
+        ]
+    },
+
+	{
+        "name": "Civil Police",
+        "unitType": "Police",
+        "movement": 2,
+        "strength": 8,
+        "cost": 50,
+        "uniques": ["May upgrade to [Spearman] through ruins-like effects"],
+        "attackSound": "nonmetalhit",
+        "civilopediaText": [
+            {
+				"text": "Initial non-military unit for the defense of the population."
+            }
+        ]
+    }
 ]
