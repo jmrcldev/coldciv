@@ -10,7 +10,7 @@
     "buildingCostModifier": 0.7,
     "policyCostModifier": 0.7,
     "unhappinessModifier": 0.7,
-    "barbarianBonus": 0.7,
+    "barbarianBonus": 0.8,
     "barbarianSpawnDelay": 7,
     "playerBonusStartingUnits": [],
     "aiDifficultyLevel": "Prince",
@@ -28,7 +28,7 @@
     "aisExchangeTechs": false,
     "turnBarbariansCanEnterPlayerTiles": 15,
     "clearBarbarianCampReward": 60
-  }
+  },
 
   {
     "name": "Chieftain",
@@ -41,7 +41,7 @@
     "buildingCostModifier": 0.8,
     "policyCostModifier": 0.8,
     "unhappinessModifier": 0.8,
-    "barbarianBonus": 0.8,
+    "barbarianBonus": 0.7,
     "barbarianSpawnDelay": 5,
     "playerBonusStartingUnits": [],
     "aiDifficultyLevel": "Prince",
@@ -59,7 +59,7 @@
     "aisExchangeTechs": false,
     "turnBarbariansCanEnterPlayerTiles": 10,
     "clearBarbarianCampReward": 50
-  }
+  },
 
   {
     "name": "Warlord",
@@ -90,7 +90,7 @@
     "aisExchangeTechs": true,
     "turnBarbariansCanEnterPlayerTiles": 5,
     "clearBarbarianCampReward": 40
-  }
+  },
   
   {
     "name": "Prince",
@@ -103,7 +103,7 @@
     "buildingCostModifier": 1,
     "policyCostModifier": 1,
     "unhappinessModifier": 1,
-    "barbarianBonus": 0.4,
+    "barbarianBonus": 0.5,
     "barbarianSpawnDelay": 0,
     "playerBonusStartingUnits": [],
     "aiDifficultyLevel": "Prince",
@@ -121,5 +121,36 @@
     "aisExchangeTechs": true,
     "turnBarbariansCanEnterPlayerTiles": 0,
     "clearBarbarianCampReward": 30
+  },
+
+  {
+    "name": "King",
+    "baseHappiness": 7,
+    "extraHappinessPerLuxury": 0,
+    "researchCostModifier": 1.1,
+    "unitCostModifier": 1.1,
+    "unitSupplyBase": 3,
+    "unitSupplyPerCity": 2,
+    "buildingCostModifier": 1.1,
+    "policyCostModifier": 1.1,
+    "unhappinessModifier": 1.1,
+    "barbarianBonus": 0.4,
+    "barbarianSpawnDelay": 0,
+    "playerBonusStartingUnits": [],
+    "aiDifficultyLevel": "Prince",
+    "aiCityGrowthModifier": 1.1,
+    "aiUnitCostModifier": 1.1,
+    "aiBuildingCostModifier": 1.1,
+    "aiWonderCostModifier": 1.1,
+    "aiBuildingMaintenanceModifier": 1.1,
+    "aiUnitMaintenanceModifier": 1.1,
+    "aiUnitSupplyModifier": 1.1,
+    "aiFreeTechs": [],
+    "aiMajorCivBonusStartingUnits": [],
+    "aiCityStateBonusStartingUnits": [],
+    "aiUnhappinessModifier": 1,
+    "aisExchangeTechs": true,
+    "turnBarbariansCanEnterPlayerTiles": 0,
+    "clearBarbarianCampReward": 20
   }
 ]
