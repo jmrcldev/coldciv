@@ -31,5 +31,55 @@
     "type": "Land",
     "movementCost": 1,
     "RGB": [255,255,255]
+  },
+
+  {
+    "name": "Grassland",
+    "type": "Land",
+    "food": 2,
+    "movementCost": 1,
+    "RGB": [255,255,255]
+  },
+
+  {
+    "name": "Plains",
+    "type": "Land",
+    "food": 1,
+    "production": 1,
+    "movementCost": 1,
+    "RGB": [255,255,255]
+  },
+
+  {
+    "name": "Tundra",
+    "type": "Land",
+    "food": 1,
+    "movementCost": 1,
+    "RGB": [255,255,255]
+  },
+
+  {
+    "name": "Snow",
+    "type": "Land",
+    "movementCost": 1,
+    "RGB": [255,255,255]
+  },
+
+  {
+    "name": "Mountain",
+    "type": "Land",
+    "impassable": true,
+    "defenceBonus": 0.25,
+    "RGB": [255,255,255]
+  },
+
+  {
+    "name": "Hill",
+    "type": "TerrainFeature",
+    "production": 2,
+    "movementCost": 2,
+    "defenceBonus": 0.20,
+    "RGB": [255,255,255]
+    "occursOn": ["Tundra", "Plains", "Grassland", "Desert", "Snow"],
   }
 ]
