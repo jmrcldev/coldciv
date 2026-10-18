@@ -16,7 +16,7 @@
         "column": 1,
         "uniques": [
           "[+3 Food] [in all cities]",
-          "Can build [Land] improvements at a [+25]% rate"
+          "Can build [land] improvements at a [+25]% rate"
         ]
       }
 
